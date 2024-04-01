@@ -30,6 +30,6 @@ extension Mask {
     }
 }
 
-struct DataMask: Mask {
-    var maskFormat: String
+public struct DataMask: Mask {
+    public var maskFormat: String
 }
